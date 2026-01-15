@@ -4,6 +4,9 @@ import Hero from './components/Hero/Hero.jsx'
 import Programs from './components/Programs/Programs.jsx'
 import Title from './components/Title/Title.jsx'
 import About from './components/About/About.jsx'
+import Campus from './components/About/Campus/Campus.jsx'
+import { Activity } from 'react'
+import Testimonials from './components/Testimonials/Testimonials.jsx'
 
 const App = () => {
   return (
@@ -13,7 +16,11 @@ const App = () => {
       <div className="Container">
         <Title subTitle='Our PROGRAM' Title='What We Offer'/>
         <Programs/>
-        <About/>  
+        <About/> 
+        <Title subTitle='Gallery' Title='Campus Photos'/> 
+        <Campus/>
+        <Title subTitle='Testimonials' Title='What Our Students Say'/> 
+        <Testimonials/>
       </div> 
     </div>
   )
