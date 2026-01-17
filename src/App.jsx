@@ -7,7 +7,8 @@ import About from './components/About/About.jsx'
 import Campus from './components/About/Campus/Campus.jsx'
 import { Activity } from 'react'
 import Testimonials from './components/Testimonials/Testimonials.jsx'
-
+import Contact from './components/Contact/Contact.jsx'
+import Footer from './components/Footer/Footer.jsx'
 const App = () => {
   return (
     <div>
@@ -21,6 +22,9 @@ const App = () => {
         <Campus/>
         <Title subTitle='Testimonials' Title='What Our Students Say'/> 
         <Testimonials/>
+        <Title subTitle='Contact Us' Title='Get In Touch'/> 
+        <Contact/>
+        <Footer/>
       </div> 
     </div>
   )
