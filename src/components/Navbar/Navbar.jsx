@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
+import { Link } from 'react-scroll'
 
 
 const Navbar = () => {
@@ -16,12 +17,12 @@ const Navbar = () => {
     <nav className= {`Container ${Sticky ? 'Dark-nav' : ''}`} >
         <img src={logo} alt="" className="logo" />
         <ul>
-            <li>Home</li>
-            <li>Program</li>
-            <li>About Us</li>
-            <li>Campus</li>
-            <li>Testamonials</li>
-            <li><button className="btn">Contact Us</button></li>   
+            <li><Link to="Hero" smooth={true} offset={0} duration={500}>Home</Link> </li>
+            <li><Link to="Promgrams" smooth={true} offset={0} duration={500}>Program</Link></li>
+            <li><Link to="About" smooth={true} offset={0} duration={500}>About Us</Link></li>
+            <li><Link to="Campus" smooth={true} offset={0} duration={500}>Campus</Link></li>
+            <li><Link to="Testimonials" smooth={true} offset={0} duration={500}>Testamonials</Link></li>
+            <li><Link to="contact" smooth={true} offset={0} duration={500} className="btn">Contact Us</Link></li>   
         </ul>
     </nav>
   )
