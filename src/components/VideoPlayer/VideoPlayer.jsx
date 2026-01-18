@@ -9,8 +9,9 @@ const VideoPlayer = ({ playState, setPlayState }) => {
 
   return (
     <div className={`video-player ${playState ? '' : 'hide'}`} ref={player} onClick={() => setPlayState(false)}>
-      <video src={clg_vid} autoPlay muted controls></video>
-      console.log("Video Player Rendered");
+      <div className="video-wapper">
+        <video src={clg_vid} autoPlay muted controls></video>
+      </div>
 
     </div>
     
