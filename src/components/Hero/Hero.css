@@ -23,3 +23,21 @@
     line-height: 1.4;
 }
 
+@media (max-width: 850px){
+    .Hero-text h1{
+        font-size: 40px;
+    }
+}
+@media (max-width: 650px){
+    .Hero-text h1{
+        font-size: 30px;
+        max-width: 40px;
+        margin: auto;
+    }
+    .Hero-text p{
+        font-size: 14px;
+        margin: 15px auto 30px
+    }
+}
+
+
