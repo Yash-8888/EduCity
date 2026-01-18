@@ -23,7 +23,7 @@ const Navbar = () => {
         <img src={logo} alt="" className="logo" />
         <ul className={mobileMenu?'':'hide-mobile-menu'}>
             <li><Link to="Hero" smooth={true} offset={0} duration={500}>Home</Link> </li>
-            <li><Link to="Prom grams" smooth={true} offset={0} duration={500}>Program</Link></li>
+            <li><Link to="Promgrams" smooth={true} offset={0} duration={500}>Program</Link></li>
             <li><Link to="About" smooth={true} offset={0} duration={500}>About Us</Link></li>
             <li><Link to="Campus" smooth={true} offset={0} duration={500}>Campus</Link></li>
             <li><Link to="Testimonials" smooth={true} offset={0} duration={500}>Testamonials</Link></li>
