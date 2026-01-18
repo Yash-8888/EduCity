@@ -31,7 +31,7 @@
 @media (max-width: 650px){
     .Hero-text h1{
         font-size: 30px;
-        max-width: 40px;
+        max-width: 400px;
         margin: auto;
     }
     .Hero-text p{

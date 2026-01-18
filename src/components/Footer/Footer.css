@@ -7,3 +7,16 @@
     padding: 15px 0;
     
 }
+
+@media (max-width: 800px){
+    .footer{
+        display: block;
+        text-align: center;
+    }   
+    .footer ul li{
+        margin: 10px;
+    }
+    .footer ul{
+        margin-top: 10px;
+    }
+}

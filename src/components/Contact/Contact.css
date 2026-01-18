@@ -51,3 +51,12 @@
     display: block;
     margin: 20px 0;
 }
+@media (max-width: 800px){
+    .contact{
+        display: block;
+        padding: 20px;
+    }
+    form{
+        
+    }
+}

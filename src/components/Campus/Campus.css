@@ -17,3 +17,13 @@
     background-color: #212AE0;
     color: white;
 }
+@media (max-width:650px){
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+        width: 48%;
+        margin-bottom: 25px;
+    }
+    
+}
